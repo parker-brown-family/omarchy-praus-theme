@@ -40,7 +40,7 @@ How the nine decisions on the plan page landed:
 
 - Contrast on black: linen 13.57, bronze 6.44, sage 6.35, olive 3.14, blood 2.61 (lifted red
   4.61), iron 1.54. Derived terminal colours 4.91–6.82.
-- Mean luma source → graded: knight 7.1 → 5.8, cell 10.4 → 6.2, lamp 3.1 → 2.5, word 0.35.
+- Mean luma source → graded: knight 7.1 → 5.8, cell 5.0 → 4.2 (8K master, 2026-10-16 06:18), lamp 3.1 → 2.5, word 0.35.
   Backgrounds total 1.1 MB as WebP. Lamp smoke checked for banding at 3× stretch: none.
 - Target: Omarchy 4.0.4. The wallpaper plugin is still-image only, `PreserveAspectCrop`.
 - Registry rules read live 2026-10-16 (`omacom/omarchy-theme-registry`, `validate.ts`): the
