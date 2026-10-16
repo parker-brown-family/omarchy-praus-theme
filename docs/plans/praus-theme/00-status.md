@@ -61,6 +61,19 @@ How the nine decisions on the plan page landed:
   first run spawned the panes onto the portrait monitor's workspace (follow-mouse focus); the
   shot was correct, and the rig now warps the pointer onto the shot monitor before spawning.
 
+## Submission (2026-10-16)
+
+- Public repository `parker-brown-family/omarchy-praus-theme` (GitHub id 1422164207), MIT,
+  topics `omarchy-theme` plus descriptive tags.
+- Registry issue `omacom/omarchy-theme-registry#122` — "Submit: Praus", filed through the web
+  form as parker-brown-family so the `submission` label applied. First report passed with one
+  warning (`PALETTE_UNKNOWN_KEYS`: selection_foreground/selection_background); fixed by moving the
+  value into `selection`, then `/recheck` passed with no warnings.
+- Pull request `omacom/omarchy-theme-registry#123` — "Add theme: Praus (praus)", labelled
+  `auto-approve` (owner submission). Live listing **not yet observed**: it needs a maintainer merge
+  and the next six-hourly catalog build; check https://themes.omarchy.org before calling it listed.
+- Local: `omarchy-theme-list` shows Praus; it is the current theme.
+
 ## Unpublished on purpose (`.gitignore`)
 
 `_local/` (retired art, scratch tools), `bin/` (the rig: scripts draw a registry warning),
