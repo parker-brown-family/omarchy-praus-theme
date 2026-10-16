@@ -27,7 +27,7 @@ It is a colours-only theme. The terminal, btop, Neovim, Hyprland borders, the ba
 | Colour | Hex | Where it lands | On black |
 |---|---|---|---|
 | Vantablack | `#000000` | every surface | — |
-| Iron | `#292F2B` | selection, unfocused borders | surface only |
+| Iron | `#292F2B` | unfocused window borders | surface only |
 | Monastic olive | `#536049` | comments, dim text | 3.14:1 |
 | Worn sage | `#86917B` | accent, the focused window | 6.35:1 |
 | Aged linen | `#D4D0BF` | body text | 13.57:1 |

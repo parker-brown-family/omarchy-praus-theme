@@ -5,7 +5,7 @@
 mode = "dark"
 
 accent    = "#86917B"   # Worn sage — focus, active border (6.35:1)
-selection = "#292F2B"   # Iron — panels and inactive surfaces
+selection = "#343C30"   # iron warmed toward olive; linen reads 7.40:1 on it
 muted     = "#536049"   # Monastic olive — comments, dim text (3.14:1)
 
 background         = "#000000"   # Vantablack — the foundation
@@ -34,9 +34,6 @@ bright_cyan    = "#97B1AB"
 bright_blue    = "#98A7BA"
 bright_magenta = "#B597A5"
 
-selection_foreground = "#EFE8D6"
-selection_background = "#343C30"   # linen reads 7.40:1 on it
-
 # Solid sage on the focused window keeps bronze rare.
 hyprland_active_border   = "#86917B"
-hyprland_inactive_border = "rgba(292F2Baa)"
+hyprland_inactive_border = "rgba(292F2Baa)"   # Iron — inactive surfaces
