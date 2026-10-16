@@ -1,0 +1,42 @@
+# Praus — πραΰς, meekness: strength under discipline.
+# Vantablack's black, olive cloth, linen text, a little bronze. Seven named
+# colours carry the theme; the rest are derived to sit on the same weathered
+# material. Every value is measured against #000000 (contrast in brackets).
+mode = "dark"
+
+accent    = "#86917B"   # Worn sage — focus, active border (6.35:1)
+selection = "#292F2B"   # Iron — panels and inactive surfaces
+muted     = "#536049"   # Monastic olive — comments, dim text (3.14:1)
+
+background         = "#000000"   # Vantablack — the foundation
+dark_background    = "#080907"
+darker_background  = "#040504"
+lighter_background = "#151915"
+
+foreground        = "#D4D0BF"   # Aged linen — body text (13.57:1)
+dark_foreground   = "#8A8778"   # (5.82:1)
+light_foreground  = "#E0DCCB"
+bright_foreground = "#EFE8D6"   # cursor
+
+red     = "#B05F55"   # Dried blood, lifted to read as text (4.61:1)
+orange  = "#A8774B"   # leather (5.41:1)
+yellow  = "#A18C60"   # Ancient bronze — precious, kept to warnings (6.44:1)
+green   = "#8A9963"   # (6.82:1)
+cyan    = "#6F8D87"   # verdigris (5.84:1)
+blue    = "#71829A"   # slate iron (5.36:1)
+magenta = "#937180"   # bruised wine (4.91:1)
+brown   = "#5C4535"   # walnut
+
+bright_red     = "#C47A6E"
+bright_yellow  = "#CDA369"   # lamp flame, sampled from The Lamp
+bright_green   = "#AAB886"
+bright_cyan    = "#97B1AB"
+bright_blue    = "#98A7BA"
+bright_magenta = "#B597A5"
+
+selection_foreground = "#EFE8D6"
+selection_background = "#343C30"   # linen reads 7.40:1 on it
+
+# Solid sage on the focused window keeps bronze rare.
+hyprland_active_border   = "#86917B"
+hyprland_inactive_border = "rgba(292F2Baa)"

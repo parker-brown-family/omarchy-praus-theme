@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <defs>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A18C60" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#A18C60" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="3840" height="2160" fill="#000000"/>
+  <ellipse cx="760" cy="1600" rx="900" ry="380" fill="url(#lamp)"/>
+  <text x="380" y="1680" font-family="Noto Serif Display" font-weight="300" font-size="210" letter-spacing="80" fill="#A18C60">ΠΡΑΫΣ</text>
+</svg>

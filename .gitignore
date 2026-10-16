@@ -1,0 +1,8 @@
+# Local working material: kept on disk, never published. The registry warns on
+# scripts and on images outside backgrounds/, and the plan's working files hold
+# retired art and a raw chat extract.
+_local/
+bin/
+reports/
+screenshots/
+docs/plans/praus-theme/chatgpt-session-extract.md
