@@ -30,9 +30,13 @@ How the nine decisions on the plan page landed:
 - Parker's ChatGPT design session (2026-10-15). The seven named colours come from the turn he
   screenshotted: Vantablack `#000000`, Iron `#292F2B`, Monastic olive `#536049`, Worn sage
   `#86917B`, Aged linen `#D4D0BF`, Ancient bronze `#A18C60`, Dried blood `#813B35`.
-- Parker's paintings, 2026-10-16, ChatGPT, 1672×941 each: `art/the-meek-warrior.png`,
-  `art/the-cell.png`, `art/the-lamp.png`. The cell carries an AI-painted icon of a saint with no
-  lettering; named to Parker and kept at his call.
+- Parker's art, current set 2026-10-19 ("update images used..."), ChatGPT, 1672×941 each:
+  `art/the-meek-warrior.png`, `art/the-cell.png`, `art/the-lamp.png`, `art/praus.png` (the word,
+  now painted; it replaced the typeset SVG). Earlier sets (2026-10-16, including the cell's 8K
+  master) are in git history. The knight's round window let in light shaped like a skull; the
+  shipped wallpaper paints it out as a plain lit disc (`art/README.md`, seeded and reproducible),
+  the source is untouched. The cell's icon (Mother of God with the Child) carries AI pseudo-
+  lettering a few pixels high; kept at Parker's call, as with the earlier icon.
 - Parker's words: "PRAUS (meekness)", "VERY SERIOUS. like immortal soul seriousness.. Eastern
   warrior monk roots", and the README epigraph.
 
@@ -40,8 +44,9 @@ How the nine decisions on the plan page landed:
 
 - Contrast on black: linen 13.57, bronze 6.44, sage 6.35, olive 3.14, blood 2.61 (lifted red
   4.61), iron 1.54. Derived terminal colours 4.91–6.82.
-- Mean luma source → graded: knight 7.1 → 5.8, cell 5.0 → 4.2 (8K master, 2026-10-16 06:18), lamp 3.1 → 2.5, word 0.35.
-  Backgrounds total 1.1 MB as WebP. Lamp smoke checked for banding at 3× stretch: none.
+- Mean luma source → graded (2026-10-19 set): knight 9.3 → 6.6, cell 6.6 → 5.1, lamp 2.9 → 2.3,
+  word 4.0 → 3.2. Backgrounds total 1.45 MB as WebP. Lamp smoke checked for banding at 3×
+  stretch (2026-10-16 set): none.
 - Target: Omarchy 4.0.4. The wallpaper plugin is still-image only, `PreserveAspectCrop`.
 - Registry rules read live 2026-10-16 (`omacom/omarchy-theme-registry`, `validate.ts`): the
   published tree avoids every warning — no scripts, no images outside `backgrounds/`, a 16:9

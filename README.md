@@ -41,9 +41,9 @@ Dried blood started as `#813B35`, which measures 2.61:1 on black and cannot be r
 1. **The Meek Warrior** — the primary
 2. **The Cell**
 3. **The Lamp**
-4. **ΠΡΑΫΣ** — the word, set in Noto Serif Display
+4. **ΠΡΑΫΣ** — the word
 
-The three paintings were made for this theme by Parker Brown with ChatGPT in October 2026, then graded onto the palette's black at 3840×2160; The Cell comes from an 8K master. The originals, the type source and the exact grade are in [`art/`](art/).
+All four were made for this theme by Parker Brown with ChatGPT in October 2026, then graded onto the palette's black at 3840×2160. The originals and the exact grade are in [`art/`](art/).
 
 ## License
 
